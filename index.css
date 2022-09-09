@@ -1,10 +1,36 @@
 body {
   margin: 10px;
-  background-color: rgb(46, 40, 29);
+  background-color: grey;
 }
-.container-1 {
-  background-color: palegoldenrod;
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
+
+.log-body-cont-container {
+  display: flex;
+}
+
+.body-container {
+  display: flex;
+  background-color: khaki;
+  flex-flow: column wrap;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.log-container {
+  display: flex;
+  background-color: salmon;
+  flex-flow: row wrap;
+  flex: 0 1 25%; 
+  align-items: center;
+  padding: 0px 5px;
+
+}
+
 .pic {
   width: 700px;
 }
