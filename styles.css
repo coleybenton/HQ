@@ -1,6 +1,6 @@
 body {
   margin: 10px;
-  background-color: grey;
+  background-color: white;
 }
 
 ul {
@@ -9,23 +9,24 @@ ul {
   list-style: none;
 }
 
-.log-body-cont-container {
+.title-container {
   display: flex;
+  justify-content: space-between;
 }
 
-.body-container {
+.title {
   display: flex;
   background-color: khaki;
   flex-flow: column wrap;
   align-items: center;
-  flex: 1 1 auto;
+  flex: 0 1 auto;
 }
 
-.log-container {
+.title-log {
   display: flex;
   background-color: salmon;
   flex-flow: row wrap;
-  flex: 0 1 25%; 
+  flex: 0 1 auto; 
   align-items: center;
   padding: 0px 5px;
 
