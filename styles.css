@@ -1,6 +1,5 @@
 body {
   margin: 10px;
-  background-color: rgb(252, 179, 221);
   font-family: cursive;
 }
 
@@ -17,11 +16,11 @@ ul {
 #title-container {
   background-color: rgb(132, 247, 255);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
+
 #body-container,
-#body-row-one,
 #body-row-two,
 #body-row-three,
 #body-row-four  {
@@ -31,8 +30,38 @@ ul {
   gap: 0.5px;
 }
 
+#body-row-one-three {
+  display: flex;
+}
+
+#body-row-one {
+  display: flex;
+  flex-direction: column;
+}
+
+#body-row-arrangement {
+  display: flex;
+  flex-direction: row;
+}
+
+#body-content-three {
+  flex: 0 1 75%;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
 .border {
   border: 1px solid black;
+}
+
+.white-border {
+  border: 1px solid white;
+}
+
+.white-text {
+  color: white;
 }
 
 .white-background {
@@ -41,4 +70,8 @@ ul {
 
 .grey-background {
   background-color: lightslategrey;
+}
+
+.standard {
+  background-color: lightpink;
 }
